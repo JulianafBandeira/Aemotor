@@ -7,4 +7,4 @@ class Prefeitura():
         self.telefone = telefone
 
     def __repr__(self):
-        return '<email{},telefone>'.format[self.email,self.telefone]
+        return '<email{},telefone>'.format(self.email,self.telefone)

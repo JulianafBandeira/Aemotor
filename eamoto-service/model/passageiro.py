@@ -9,4 +9,4 @@ class Passageiro(Aluno):
         self.aluno = aluno
         self.cidadeOrigem = cidadeDestino
         self.cidadeDestino = cidadeOrigem
-        return '<aluno{}, cidadeOrigem{},cidadeDestino{}>'.format[self.aluno,self.cidadeDestino,self.cidadeOrigem]
+        return '<aluno{}, cidadeOrigem{},cidadeDestino{}>'.format(self.aluno,self.cidadeDestino,self.cidadeOrigem)

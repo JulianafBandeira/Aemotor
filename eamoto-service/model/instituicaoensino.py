@@ -8,4 +8,4 @@ class InstituicaoDeEnsino():
         self.nome = nome
         self.logradouro = logradouro
         self.telefone = telefone
-        return '<nome{}, logradouro{},telefone{}>'.format[self.nome,self.logradouro,self.telefone]
+        return '<nome{}, logradouro{},telefone{}>'.format(self.nome,self.logradouro,self.telefone)

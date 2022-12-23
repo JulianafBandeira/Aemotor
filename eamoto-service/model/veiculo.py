@@ -9,5 +9,5 @@ class Veiculo():
         self.qtdPassageiros = qtdPassageiros
         self.tipoVeiculo = tipoVeiculo
         self.placa = placa
-        return '<cidade{}, qtdPassageiros{}, tipoVeiculo{}, placa{}>'.format[self.cidade,self.qtdPassageiros,self.tipoVeiculo,self.placa]
+        return '<cidade{}, qtdPassageiros{}, tipoVeiculo{}, placa{}>'.format(self.cidade,self.qtdPassageiros,self.tipoVeiculo,self.placa)
        

@@ -11,4 +11,4 @@ class Rota():
         self.horaSaida = horaSaida
         self.horaChegada =  horaChegada
 
-        return '<prefeitura{}, nomeDestino{},qtdalunos{},veiculo{},passageiro{},horaSaida{}, horaChegada{}>'.format[self.prefeitura,self.nomeDestino,self.qtdalunos,self.veiculo,self.passageiro,self.horaSaida,self.horaChegada]
+        return '<prefeitura{}, nomeDestino{},qtdalunos{},veiculo{},passageiro{},horaSaida{}, horaChegada{}>'.format(self.prefeitura,self.nomeDestino,self.qtdalunos,self.veiculo,self.passageiro,self.horaSaida,self.horaChegada)

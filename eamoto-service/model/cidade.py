@@ -8,4 +8,4 @@ class Cidade():
         self.nome = nome
         self.sigla = sigla
     def __repr__(self):
-        return '<nome{},sigla{}>'.format[self.nome,self.sigla]
+        return '<nome{},sigla{}>'.format(self.nome,self.sigla)

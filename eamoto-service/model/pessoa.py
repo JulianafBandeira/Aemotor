@@ -9,4 +9,4 @@ class Pessoa():
         self.telefone = telefone
 
     def __repr__(self):
-       return '<nome{}, nascimento{}, email{}, telefone{}>'.format[self.nome,self.nascimento,self.email,self.telefone]
+       return '<nome{}, nascimento{}, email{}, telefone{}>'.format(self.nome,self.nascimento,self.email,self.telefone)

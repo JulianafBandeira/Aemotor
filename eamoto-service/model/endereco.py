@@ -10,4 +10,4 @@ class Endereco():
         self.complemento = complemento
         
     def __repr__(self):
-       return '<logradouro{},cep{},numero{},complemento{}>'.format[self.logradouro,self.cep,self.complemento,self.numero]
+       return '<logradouro{},cep{},numero{},complemento{}>'.format(self.logradouro,self.cep,self.complemento,self.numero)
